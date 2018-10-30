@@ -1,0 +1,220 @@
+header>ul,
+li,
+header>div {
+	display: inline-block;
+}
+header {
+	width: 100%;
+	line-height: 90px;
+	border-bottom: solid 1px #f2f2f2;
+}
+header>img {
+	vertical-align: middle;
+}
+header>ul>li {
+	width: 90px;
+	height: 90px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.hall>a {
+	color: #fff;
+}
+header>ul>li:first-child {
+	background: #2ba76b;
+}
+header>ul>li:not(.hall):hover a{
+	color: #2ba76b;
+}
+.icon-sousuo {
+	font-size: 20px;
+}
+.search {
+	border: solid 1px #ccc;
+    line-height: 30px;
+    width: 200px;
+    margin-left: 50px;
+}
+.search>input {
+	border: none;
+	outline: none;
+}
+header>a {
+	padding: 0 5px;
+}
+.bor>a {
+	font-size: 13px;
+	border: solid 1px #ccc;
+	padding: 12px;
+	margin-left: 5px;
+}
+.drill {
+	background: #31c27c;
+	color: #fff;
+}
+.drill:hover {
+	background: #2ba76b;
+}
+.pay:hover {
+	background: #eee;
+}
+.lay>ul>li {
+	padding: 20px;
+}
+.lay>ul>li:first-child a{
+	color: #31c27c;
+}
+.lay>ul>li :hover {
+	color: #31c27c;
+}
+.recommend {
+	width: 100%;
+	height: 500px;
+	background: #eee;
+	position: relative;
+}
+h1 {
+	letter-spacing: 25px;
+	padding-top: 40px;
+}
+.recom-lay>li {
+	padding: 20px;
+	cursor: pointer;
+	color: #000;
+}
+.recommend>ul>li:first-child {
+	color: #31c27c;
+}
+.recommend>ul>li :hover {
+	color: #31c27c;
+}
+.block {
+	width: 272px;
+	height: 300px;
+}
+.img>img {
+	width: 239px;
+	height: 239px;
+}
+.block>p {
+	font-size: 14px;
+	cursor: pointer;
+	padding-top: 25px;
+}
+.dote :first-child {
+	color: #828181;
+}
+.icon-dian {
+	font-size: 30px;
+	color: #cecece;
+	cursor: pointer;
+}
+.back,
+.forward {
+	width: 90px;
+    height: 150px;
+    background: rgb(214, 214, 214);
+    position: absolute;
+    color: #8c8b8b;
+    line-height: 150px;
+    display: none;
+}
+.back {
+	margin-top: 11%;
+}
+.icon-houtui {
+	font-size: 50px;
+}
+.forward {
+	margin-top: 11%;
+    margin-left: 94.1%;
+}
+.icon-qianjin {
+	font-size: 40px;
+}
+.caro {
+	width: 90%;
+    height: 300px;
+    position: absolute;
+	margin-left: 5.1%;
+	overflow: hidden;
+}
+.dote {
+	position: absolute;
+    margin-top: 20%;
+    margin-left: 47%;
+}
+.cover {
+	width: 239px;
+    height: 239px;
+    background: rgba(136, 135, 135, 0.69);
+    position: absolute;
+    margin-top: -17.5%;
+    margin-left: 1.2%;
+    cursor: pointer;
+}
+.icon-bofang {
+	font-size: 30px;
+    color: #000;
+    line-height: 240px;
+    padding: 18px;
+    background: #fff;
+    border-radius: 50%;
+}
+.cover {
+	display: none;
+}
+.caroOne,
+.caroTwo,
+.caroThree,
+.caroFour,
+.caroFive,
+.caroSix {
+	height: 335px;
+}
+.caroTwo {
+	width: 100%;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 9.3%;
+	margin-left: 0;
+}
+.caroThree {
+	width: 100%;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 9.3%;
+	margin-left: 0;
+}
+.caroFour {
+	width: 100%;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 9.3%;
+	margin-left: 0;
+}
+.caroFive {
+	width: 100%;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 9.3%;
+	margin-left: 0;
+}
+.caroSix {
+	width: 100%;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 9.3%;
+	margin-left: 0;
+}

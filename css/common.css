@@ -1,0 +1,24 @@
+a {
+	text-decoration: none;
+	color: #000;
+}
+ul>li {
+	list-style: none;
+}
+.clearfix {
+	content: '';
+	display: inline-block;
+	clear: both;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: poppin,Tahoma,Arial,\5FAE\8F6F\96C5\9ED1,sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+.iconfont {
+	display: inline;
+}
